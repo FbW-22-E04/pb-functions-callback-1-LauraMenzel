@@ -13,7 +13,7 @@ function greetUsers(array, func) {
   return array.map((t) => func(t));
 }
 
-console.log(greetUsers(["John", "Peter", "Mark"], test))
+console.log(greetUsers(["John", "Peter", "Mark"], greetMessage))
 // "Good Morning, John"
 // "Good Morning, Peter"
 // "Good Morning, Mark"
