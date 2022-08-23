@@ -18,7 +18,3 @@ console.log(greetUsers(["John", "Peter", "Mark"], test))
 // "Good Morning, Peter"
 // "Good Morning, Mark"
 
-function test(name){
-
-    return `Motherfucker ${name}!`;
-}
